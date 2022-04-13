@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_sign - checks the sign of an int passed to is
  * and prints the sign (+ / -)
