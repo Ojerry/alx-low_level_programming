@@ -1,30 +1,18 @@
 #include "main.h"
 /**
- * print_sign - checks the sign of an int passed to is
- * and prints the sign (+ / -)
- * @n: The integer to check
+ * _isalpha - checks whether the passed character is an alphabet (A-Z or a-z)
+ * @c: The character to check
  *
- * Return: 1 if n is greater than zero, and prints +
- * returns 0 if n is zero, and prints 0
- * returns -1 if n is less than zero, and prints -
+ * Return: 1 if c is an alphabet, otherwise Return: 0
  */
-int print_sign(int n)
+int _isalpha(int c)
 {
-	int i = n;
+	int i = c;
 
-	if (i > 0)
-	{
-		_putchar('+');
+	if (i >= 97 && i <= 122)
 		return (1);
-	}
-	else if (i == 0)
-	{
-		_putchar('0');
-		return (0);
-	}
+	else if (i >= 65 && i <= 90)
+		return (1);
 	else
-	{
-		_putchar('-');
-		return (-1);
-	}
+		return (0);
 }
