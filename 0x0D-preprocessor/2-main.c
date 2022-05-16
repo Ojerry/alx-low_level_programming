@@ -1,7 +1,8 @@
 #include <stdio.h>
+
 /**
 * main - prints name of program file
-* Return - Always 0
+* Return: Always 0
 */
 
 int main(void)
