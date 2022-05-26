@@ -2,7 +2,7 @@
 
 
 /**
-* print_char - Prints a char.
+* print_char - Print a char.
 * @arg: A list of arguments pointing to
 * the character to be printed.
 */
@@ -16,7 +16,7 @@ printf("%c", letter);
 }
 
 /**
-* print_int - Prints an int.
+* print_int - Print an int.
 * @arg: A list of arguments pointing to
 * the integer to be printed.
 */
@@ -31,7 +31,7 @@ printf("%d", num);
 
 
 /**
-* print_float - Prints a float.
+* print_float - Print a float.
 * @arg: A list of arguments pointing to
 * the float to be printed.
 */
@@ -47,7 +47,7 @@ printf("%f", num);
 
 
 /**
-* print_string - Prints a string.
+* print_string - Prints string.
 * @arg: A list of arguments pointing to
 * the string to be printed.
 */
